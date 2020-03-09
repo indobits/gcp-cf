@@ -1,6 +1,6 @@
-console.log('oli')
-exports.helloCiCd = (req, res) => {
-	res.send(`Hello ${req.body.name || 'World'}!`)
+//console.log('oli')
+exports.helloCiCd = (req,res) => {
+	res.send('test1')
 }
 
 /*const express = require('express')
