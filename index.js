@@ -1,6 +1,6 @@
 //console.log('oli')
 exports.helloCiCd = (req,res) => {
-	res.send('test2')
+	res.send('hola1')
 }
 
 /*const express = require('express')
