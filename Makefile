@@ -1,5 +1,7 @@
 SHELL:=sh
 
+export DOCKER_BUILDKIT=1
+
 run:
 	docker build . -t gcp-cf
 	docker run -it --rm \
