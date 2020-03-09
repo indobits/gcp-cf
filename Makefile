@@ -1,3 +1,5 @@
+SHELL:=sh
+
 run:
 	docker build . -t gcp-cf
 	docker run -it --rm \
