@@ -1,9 +1,9 @@
-//console.log('oli')
-/*exports.helloCiCd = (req, res) => {
+console.log('oli')
+exports.helloCiCd = (req, res) => {
 	res.send(`Hello ${req.body.name || 'World'}!`)
-}*/
+}
 
-const express = require('express')
+/*const express = require('express')
 const app = express()
 
 app.get('/', (req,res) => {
@@ -14,4 +14,4 @@ const server = app.listen(8080,() => {
 	const host = server.address().address
 	const port = server.address().port
 	console.log('Example app listening at http://%s:%s',host,port)
-})
+})*/
